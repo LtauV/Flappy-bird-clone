@@ -2,7 +2,6 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class RobotScript : MonoBehaviour
 {
@@ -10,10 +9,12 @@ public class RobotScript : MonoBehaviour
     public Rigidbody2D myRigidbody;
     public float jumpStrength;
     private bool isAlive = true;
+    public LogicManager LogicManager;
     // Start is called before the first frame update
     void Start()
     {
-        
+        LogicManager = GameObject.FindGameObjectWithTag("logic").GetComponent<LogicManager>();
+
     }
 
     // Update is called once per frame
@@ -28,12 +29,10 @@ public class RobotScript : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        LogicManager.gameOver();
         isAlive = false;
         Debug.Log("Collided for real");
     }
 
-    public void restartGame()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
+    
 }
