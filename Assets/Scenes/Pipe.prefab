@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 91428423821451785}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0.06669452}
-  m_LocalScale: {x: 5, y: 5, z: 1}
+  m_LocalScale: {x: 4, y: 4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4200989346800165664}
@@ -76,7 +76,7 @@ Transform:
   m_GameObject: {fileID: 6074290703444018739}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 2.66, z: 0}
-  m_LocalScale: {x: 0.008251875, y: 0.09, z: 1}
+  m_LocalScale: {x: 0.04, y: 0.09, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3961869253940290553}
@@ -123,10 +123,10 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 196100409, guid: 22edaab8b2314fd4dad5e7da1f7a7ced, type: 3}
+  m_Sprite: {fileID: -667572200, guid: 22edaab8b2314fd4dad5e7da1f7a7ced, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
-  m_FlipY: 0
+  m_FlipY: 1
   m_DrawMode: 1
   m_Size: {x: 81.18, y: 58.2}
   m_AdaptiveModeThreshold: 0.5
@@ -177,7 +177,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 62.94, y: 57.4}
+  m_Size: {x: 80.85, y: 57.4}
   m_EdgeRadius: 0
 --- !u!1 &6604201816225289989
 GameObject:
@@ -269,6 +269,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d62966b8caa20be4aa20337f99ed1ae8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LogicManager: {fileID: 0}
 --- !u!1 &7048441837644780110
 GameObject:
   m_ObjectHideFlags: 0
@@ -296,7 +297,7 @@ Transform:
   m_GameObject: {fileID: 7048441837644780110}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.03, y: -4.46, z: 0}
-  m_LocalScale: {x: 0.008251875, y: -0.09, z: 1}
+  m_LocalScale: {x: 0.04, y: -0.09, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3961869253940290553}
@@ -343,10 +344,10 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -241489567, guid: 22edaab8b2314fd4dad5e7da1f7a7ced, type: 3}
+  m_Sprite: {fileID: -1685689557, guid: 22edaab8b2314fd4dad5e7da1f7a7ced, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
-  m_FlipY: 0
+  m_FlipY: 1
   m_DrawMode: 1
   m_Size: {x: 81.18, y: 58.2}
   m_AdaptiveModeThreshold: 0.5
@@ -397,5 +398,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 58.11, y: 58.89}
+  m_Size: {x: 80.85, y: 58.89}
   m_EdgeRadius: 0
