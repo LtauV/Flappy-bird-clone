@@ -31,6 +31,7 @@ public class RobotScript : MonoBehaviour
     {
         LogicManager.gameOver();
         isAlive = false;
+        myRigidbody.gravityScale = 12;
         Debug.Log("Collided for real");
     }
 
