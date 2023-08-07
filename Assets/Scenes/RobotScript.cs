@@ -8,7 +8,7 @@ public class RobotScript : MonoBehaviour
 
     public Rigidbody2D myRigidbody;
     public float jumpStrength;
-    private bool isAlive = true;
+    public bool isAlive = true;
     public LogicManager LogicManager;
     // Start is called before the first frame update
     void Start()
